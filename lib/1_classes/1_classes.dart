@@ -1,4 +1,4 @@
-import 'package:dart_poo/camiseta.dart';
+import 'package:dart_poo/1_classes/camiseta.dart';
 
 void main() {
   var CamisetaNike = new Camiseta();
