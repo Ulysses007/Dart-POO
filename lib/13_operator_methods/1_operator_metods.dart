@@ -23,13 +23,12 @@ print(soma.i);
 }
 
 // criando o proprio operador de soma
-
 class Numeros {
   int i;
 
   Numeros(this.i);
 
-  Numeros operator + (Numeros numero2){
+  Numeros operator +(Numeros numero2){
 return Numeros(i + numero2.i);
 }
 }
