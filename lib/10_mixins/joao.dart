@@ -3,10 +3,10 @@ import 'package:dart_poo/10_mixins/cantar.dart';
 import 'package:dart_poo/10_mixins/dancar.dart';
 
 /*
-Mixin: são uma forma de uma classe extender mais de uma interfaces ou classes abstratas
+Mixin:É uma forma de uma classe extender mais de uma interfaces ou classes abstratas
 
 */
-// a palabra with permite extender tanto mixins como classes abstratas
+// a palavra with permite extender tanto mixins como classes abstratas
 class Joao extends Artista with Dancar, Cantar, Tocar {}
 
 abstract class Cantar {
